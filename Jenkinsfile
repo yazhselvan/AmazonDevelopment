@@ -6,7 +6,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the new release'
-//                 build quietPeriod: 5, job: 'amazonDevelop'
+                 build quietPeriod: 5, job: 'amazonDevelop'
             }
         }
  stage('Deploy') {
